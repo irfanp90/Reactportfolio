@@ -14,9 +14,9 @@ function App() {
 
         <Switch>
           <Route exact path="/" component={Home} /> 
-          <Route exact path="/contact" component={Contact} />
-          {/* <Route exact path="/books/:id" component={Detail} />
-          <Route component={NoMatch} /> */}
+          <Route exact path="/Contact" component={Contact} />
+           {/* <Route exact path="/Skills" component={Skills} /> */}
+          {/* <Route component={NoMatch} /> */}
         </Switch>
       </div>
       <Footer /> 

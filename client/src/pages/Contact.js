@@ -1,5 +1,5 @@
 import React from "react";
-import { Input,FormBtn } from "../components/Form";
+import { Name, Email, Comment, FormBtn } from "../components/Form";
 import "./Home.css"
 class Contact extends React.Component {
     state = {
@@ -31,25 +31,25 @@ class Contact extends React.Component {
       <br></br>
       <br></br>
       <form>
-      <Input
+      <Name
         value={this.state.search}
         onChange={this.handleInputChange}
         name="name"
-        placeholder="Name"
+        placeholder="John Smith"
       />
       <br></br>
-      <Input
+      <Email
         value={this.state.search}
         onChange={this.handleInputChange}
         name="Email"
-        placeholder="Email"
+        placeholder="JohnSmith@gmail.com"
       />
       <br></br>
-       <Input
+       <Comment
         value={this.state.search}
         onChange={this.handleInputChange}
         name="Message"
-        placeholder="Message"
+        placeholder="Comment . . ."
       />
       <br></br>
       <FormBtn
