@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
-
+import Skills from "./pages/Skills"
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} /> 
           <Route exact path="/Contact" component={Contact} />
-           {/* <Route exact path="/Skills" component={Skills} /> */}
+           <Route exact path="/Skills" component={Skills} />
           {/* <Route component={NoMatch} /> */}
         </Switch>
       </div>
