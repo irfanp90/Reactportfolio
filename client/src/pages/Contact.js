@@ -22,12 +22,14 @@ class Contact extends React.Component {
   render(){
   return(
      
-      
+      <div  className="background">
       <div className="container">
      <br></br>
      <br></br>
      <br></br>
-     
+     <br></br>
+      <br></br>
+      <br></br>
       <form>
       <Input
         value={this.state.search}
@@ -60,9 +62,18 @@ class Contact extends React.Component {
       <br></br>
       <br></br>
       <br></br>
-        
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      
   </div>
-               
+     </div>          
     );
     }
     }
