@@ -2,27 +2,39 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar navbar-dark bg-dark">
-    <a className="navbar" href="/">Irfan Patel</a>
+
+  
+    <nav className="navbar navbar-expand-md navbar navbar-light" style={{
+      backgroundColor: "green"
+    }}>
      <div className="collapse navbar-collapse" id="navbarText">
       <ul className="navbar-nav mr-auto">
         
         <li className="navbar">
-          <a className="nav-link" href="/">Home</a>
+          <a className="nav-link" href="/"style={{
+            color: "gold"
+          }}>Home</a>
         </li>
         <li className="navbar">
-          <a className="nav-link" href="/Portfolio">Portfolio</a>
+          <a className="nav-link" href="/Portfolio" style={{
+            color: "gold"
+          }}>Portfolio</a>
         </li>
         <li className="navbar">
-          <a className="nav-link" href="/Skills">Skills</a>
+          <a className="nav-link" href="/Skills" style={{
+            color: "gold"
+          }}>Skills</a>
         </li>
         <li className="navbar">
-          <a className="nav-link" href="/Contact">Contact</a>
+          <a className="nav-link" href="/Contact" style={{
+            color: "gold"
+          }}>Contact</a>
         </li>
       </ul>
     
     </div>
   </nav>
+    
   );
 }
 
