@@ -9,9 +9,9 @@ function Skills() {
             <br></br>
             <br></br>
             <br></br>
+                    <h3>Skills</h3>
                 <div className="row">
                     <div className="col">
-                 
                      <Card>
                          <p>Languages </p>
                      <ul>Javascript</ul>

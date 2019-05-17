@@ -12,22 +12,22 @@ function Navbar() {
         
         <li className="navbar">
           <a className="nav-link" href="/"style={{
-            color: "gold"
+            color: "green"
           }}>Home</a>
         </li>
         <li className="navbar">
           <a className="nav-link" href="/Portfolio" style={{
-            color: "gold"
+            color: "green"
           }}>Portfolio</a>
         </li>
         <li className="navbar">
           <a className="nav-link" href="/Skills" style={{
-            color: "gold"
+            color: "green"
           }}>Skills</a>
         </li>
         <li className="navbar">
           <a className="nav-link" href="/Contact" style={{
-            color: "gold"
+            color: "green"
           }}>Contact</a>
         </li>
       </ul>

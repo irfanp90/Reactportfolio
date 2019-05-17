@@ -31,6 +31,7 @@ class Contact extends React.Component {
       <br></br>
       <br></br>
       <form>
+        <h3>Contact</h3>
       <Name
         value={this.state.search}
         onChange={this.handleInputChange}

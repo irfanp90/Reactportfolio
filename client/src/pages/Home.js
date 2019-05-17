@@ -2,10 +2,11 @@ import React from "react";
 import Jumbotron from "../components/Jumbotron";
 import Particles from "react-particles-js";
 import { Container, Row, Col } from "reactstrap";
-import "./Home.css"
-import API from "../utils/API"
-
-  
+import "./Home.css";
+import API from "../utils/API";
+import Portfolio from "../pages/Portfolio";
+import Skills from "../pages/Skills";
+import Contact from "../pages/Contact"
 
 function Home(props) {
       
@@ -54,6 +55,9 @@ function Home(props) {
          <br></br>
          <br></br>
           <Jumbotron />
+          <Skills />
+          <Portfolio />
+        <Contact />
           
 <br></br>
 <br></br>
@@ -68,7 +72,6 @@ function Home(props) {
 <br></br>
 <br></br>
 <br></br>
-
 </div>
 </div> 
      
