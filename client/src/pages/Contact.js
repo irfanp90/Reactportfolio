@@ -1,8 +1,13 @@
 import React from "react";
 import { Name, Email, Comment, FormBtn } from "../components/Form";
-import "./Home.css"
+import "./Home.css";
+import API from "../utils/API"
 class Contact extends React.Component {
     state = {
+      name:"",
+      email:"",
+      comment:""
+
      
     };
   
@@ -16,8 +21,20 @@ class Contact extends React.Component {
   
     handleFormSubmit = event => {
       event.preventDefault();
-      this.searchBooks(this.state.search);
-     };
+      let formData = {
+        name: this.state.name,
+        email: this.state.email,
+        comment: this.state.comment
+      }
+      console.log("line 29", formData);
+
+      API
+          .saveContact(formData)
+          .then(res => console.log("line 33 , line 45 prodform.js"))
+          .catch(err => console.log(err));
+      console.log("check", this.state)
+  };
+    
   
   render(){
   return(
@@ -33,23 +50,23 @@ class Contact extends React.Component {
       <form>
         <h3>Contact</h3>
       <Name
-        value={this.state.search}
+        // value={this.state.search}
         onChange={this.handleInputChange}
         name="name"
         placeholder="John Smith"
       />
       <br></br>
       <Email
-        value={this.state.search}
+        // value={this.state.search}
         onChange={this.handleInputChange}
-        name="Email"
+        name="email"
         placeholder="JohnSmith@gmail.com"
       />
       <br></br>
        <Comment
-        value={this.state.search}
+        // value={this.state.search}
         onChange={this.handleInputChange}
-        name="Message"
+        name="comment"
         placeholder="Comment . . ."
       />
       <br></br>

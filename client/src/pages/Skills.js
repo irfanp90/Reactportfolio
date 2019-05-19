@@ -14,20 +14,20 @@ function Skills() {
                     <div className="col">
                      <Card>
                          <p>Browser Based Technologies </p>
-                     <ul>HTML/CSS</ul>
-                     <ul>JavaScript</ul>
-                     <ul>jQuery</ul>
-                     <ul>Bootstrap</ul>
-                     <ul>React.js</ul>
+                     <ul>-HTML/CSS</ul>
+                     <ul>-JavaScript</ul>
+                     <ul>-jQuery</ul>
+                     <ul>-Bootstrap</ul>
+                     <ul>-React.js</ul>
                     </Card>
                 </div> 
                   
                  <div class="col">
             <Card>
                 <p>Deployment </p>
-                <ul>Heroku</ul>
-                <ul>Git</ul>
-                <ul>Github Page</ul>
+                <ul>-Heroku</ul>
+                <ul>-Git</ul>
+                <ul>-Github Page</ul>
             </Card>
         </div>
        </div>
@@ -41,17 +41,18 @@ function Skills() {
                
                      <Card>
                          <p>Databases </p>
-                     <ul>MySQL</ul>
-                     <ul>MongoDB</ul>
-                     <ul>Firebase</ul>
+                     <ul> -MySQL</ul>
+                     <ul>-MongoDB</ul>
+                     <ul>-Firebase</ul>
+                     
                     </Card>
                 </div> 
             
                  <div class="col">
             <Card>
-                <p>Node.js(Server Side Development) </p>
-                <ul>Express</ul>
-                <ul>MERN  Stack(MongoDB, Express.js, React.js, Node.js)</ul>
+                <p>Node.js (Server Side Development) </p>
+                <ul>-Express</ul>
+                <ul>-MERN  Stack (MongoDB, Express.js, React.js, Node.js)</ul>
             </Card>
         </div>
        </div>
