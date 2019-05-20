@@ -7,7 +7,7 @@ import API from "../utils/API";
 import Portfolio from "../pages/Portfolio";
 import Skills from "../pages/Skills";
 import Contact from "../pages/Contact"
-
+import Jumbo from "../components/Info"
 function Home(props) {
       
       return(
@@ -52,13 +52,15 @@ function Home(props) {
           /> */}
          
          <div className="background"> 
-         <br></br>
-         <br></br>
+         {/* <br></br>
+         <br></br> */}
           <Jumbotron />
+          
           <Skills />
           <Portfolio />
-        <Contact />
-          
+          <Jumbo />
+        {/* <Contact /> */}
+{/*           
 <br></br>
 <br></br>
 <br></br>
@@ -67,11 +69,8 @@ function Home(props) {
 <br></br>
 <br></br>
 <br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
+<br></br> */}
+
 </div>
 </div> 
      
