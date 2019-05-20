@@ -16,6 +16,8 @@ const headerStyle = {
       <div className="jumbotron text-center" style={headerStyle}>
         <p style={{fontFamily: "Akronim",  fontSize: "50px"}}>IRFAN PATEL</p>
         <p style={{fontFamily: "Akronim",  fontSize: "30px"}}>FULL STACK WEB DEVELOPER</p>
+        <h6>Phone: (773)426-1285</h6>
+        <h6>Email: Irfanp90@gmail.com</h6>
       </div>
       </div>
     );

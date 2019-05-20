@@ -1,8 +1,8 @@
-const router = require("express").Router();
-const formController = require("../../controllers/formController");
+// const router = require("express").Router();
+// const formController = require("../../controllers/formController");
 
-router.route("/")
+// router.route("/")
   
-  .post(formController.create); 
+//   .post(formController.create); 
 
-  module.exports = router;
+//   module.exports = router;
