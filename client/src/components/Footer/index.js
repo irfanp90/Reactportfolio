@@ -29,7 +29,7 @@ function Footer() {
             textAlign: "center"
           }}
         />
-        
+      <span style={{color: "silver"}}>-----</span>
     </a>
     <a href="https://www.linkedin.com/in/irfan-patel-b097a287/" target="_blank">
         <i
