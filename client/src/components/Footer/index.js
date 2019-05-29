@@ -2,8 +2,8 @@ import React from "react";
 const footerStyle = {
   position: "fixed",
   textAlign: "center",
-  backgroundColor: "silver",
-  borderTop: "3px solid darkblue",
+  backgroundColor: "white",
+  borderTop: "3px solid darkslategray",
   textAlign: "center",
   padding: "10px",
   left: "0",
@@ -29,7 +29,7 @@ function Footer() {
             textAlign: "center"
           }}
         />
-      <span style={{color: "silver"}}>-----</span>
+      <span style={{color: "white"}}>-----</span>
     </a>
     <a href="https://www.linkedin.com/in/irfan-patel-b097a287/" target="_blank">
         <i

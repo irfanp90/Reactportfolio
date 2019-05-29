@@ -2,7 +2,7 @@ import React from "react";
 import Jumbotron from "../components/Jumbotron";
 import Particles from "react-particles-js";
 import { Container, Row, Col } from "reactstrap";
-import "./Home.css";
+// import "./Home.css";
 import API from "../utils/API";
 import Portfolio from "../pages/Portfolio";
 import Skills from "../pages/Skills";
@@ -51,7 +51,7 @@ function Home(props) {
           
           /> */}
          
-         <div className="background"> 
+         <div className=""> 
          {/* <br></br>
          <br></br> */}
           <Jumbotron />

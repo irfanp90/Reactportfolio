@@ -5,29 +5,29 @@ function Navbar() {
 
   
     <nav className="navbar navbar-expand-md navbar navbar-light" style={{
-      backgroundColor: "darkblue"
+      backgroundColor:"darkslategray"
     }}>
      <div className="collapse navbar-collapse" id="navbarText">
       <ul className="navbar-nav mr-auto">
         
         <li className="navbar">
           <a className="nav-link" href="/"style={{
-            color: "darkblue"
+            color: "darkslategray"
           }}>Home</a>
         </li>
         <li className="navbar">
           <a className="nav-link" href="/Portfolio" style={{
-            color: "darkblue"
+            color: "darkslategray"
           }}>Portfolio</a>
         </li>
         <li className="navbar">
           <a className="nav-link" href="/Skills" style={{
-            color: "darkblue"
+            color: "darkslategray"
           }}>Skills</a>
         </li>
         <li className="navbar">
           <a className="nav-link" href="/Contact" style={{
-            color: "darkblue"
+            color: "darkslategray"
           }}>Contact</a>
         </li>
       </ul>

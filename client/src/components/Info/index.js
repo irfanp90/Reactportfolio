@@ -2,11 +2,11 @@ import React from "react";
 import brick from "../../images/bricks.jpg"
 const headerStyle = {
     
-  backgroundImage: `url(${brick})`,
+ 
     color: "black",
     fontWeight:"bold",
    
-    textShadow: "1px 1px 2px white, 0 0 1em darkblue, 0 0 0.2em white"
+    // textShadow: "1px 1px 2px white, 0 0 1em darkblue, 0 0 0.2em white"
   }
 
   function Jumbo(){
