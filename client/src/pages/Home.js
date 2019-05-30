@@ -52,8 +52,7 @@ function Home(props) {
           /> */}
          
          <div className=""> 
-         {/* <br></br>
-         <br></br> */}
+          
           <Jumbotron />
           
           <Skills />

@@ -5,7 +5,7 @@ function Navbar() {
 
   
     <nav className="navbar navbar-expand-md navbar navbar-light" style={{
-      backgroundColor:"darkslategray"
+      backgroundColor:"darkslategray", boxShadow: "4px 4px 15px 3px   rgb(32, 18, 9)"
     }}>
      <div className="collapse navbar-collapse" id="navbarText">
       <ul className="navbar-nav mr-auto">
