@@ -13,7 +13,8 @@ function Portfolio() {
     return(
  <div className=""> 
 <div className="container">
-<h3>Indepedent Project</h3>
+<h3>Independent Project</h3>
+<hr></hr>
 <div className="row">
 <div className="col">
 <Image>
@@ -43,7 +44,7 @@ function Portfolio() {
 </Image>
 </div>
  </div>
-<hr></hr>
+
  <div className="row">
 <div className="col">
 <Image>
@@ -70,8 +71,8 @@ function Portfolio() {
 </Image>
 </div>
  </div>
- <hr></hr>
  <h3>Group Project</h3>
+ <hr></hr>
   <div className="row">
 <div className="col">
 <Image>

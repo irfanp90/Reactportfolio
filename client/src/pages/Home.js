@@ -54,7 +54,6 @@ function Home(props) {
          <div className=""> 
           
           <Jumbotron />
-          
           <Skills />
           <Portfolio />
           <Jumbo />

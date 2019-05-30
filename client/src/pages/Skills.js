@@ -10,6 +10,9 @@ function Skills() {
             <br></br>
             <br></br>
                     <h3>Skills</h3>
+                    <hr></hr>
+                    <br></br>
+
                 <div className="row">
                     <div className="col">
                      <Card>
@@ -21,7 +24,7 @@ function Skills() {
                      <ul>-React.js</ul>
                     </Card>
                 </div> 
-                  
+                
                  <div class="col">
             <Card>
                 <p>Deployment </p>
@@ -33,8 +36,8 @@ function Skills() {
        </div>
         </div>
         <br></br>
-            <br></br>
-            <br></br>
+                <br></br>
+                <br></br>
         <div className="container">
                 <div className="row">
                     <div className="col">
@@ -57,16 +60,9 @@ function Skills() {
         </div>
        </div>
         </div>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
+        <br></br>
+                
+
         </div>
 
     )
