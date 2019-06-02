@@ -24,7 +24,7 @@ const headerStyle = {
         <br></br>
         
         <p style={{  fontSize: "75px"}}>IRFAN PATEL</p>
-        <p style={{  fontSize: "40px"}}>FULL STACK WEB DEVELOPER</p>
+        <p style={{  fontSize: "40px"}}>FULL STACK  DEVELOPER</p>
        
       </div>
     //  </div>

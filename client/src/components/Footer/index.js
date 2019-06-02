@@ -31,6 +31,12 @@ function Footer() {
         />
       <span style={{color: "white"}}>-----</span>
     </a>
+        {/* <div className="row">
+          <div className="col"></div>
+          <div className="col"></div>
+          <div className="col"></div>
+        </div> */}
+      
     <a href="https://www.linkedin.com/in/irfan-patel-b097a287/" target="_blank">
         <i
           className="fab fa-linkedin"
@@ -41,7 +47,6 @@ function Footer() {
           }}
           />  
       </a>
-      
 
     </div>
     <div className="col" >
