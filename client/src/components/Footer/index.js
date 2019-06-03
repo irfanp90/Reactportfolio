@@ -2,7 +2,7 @@ import React from "react";
 const footerStyle = {
   position: "fixed",
   textAlign: "center",
-  backgroundColor: "white",
+  backgroundColor: "gainsboro",
   borderTop: "3px solid darkslategray",
   textAlign: "center",
   padding: "10px",
@@ -29,7 +29,7 @@ function Footer() {
             textAlign: "center"
           }}
         />
-      <span style={{color: "white"}}>-----</span>
+      <span style={{color: "gainsboro"}}>-----</span>
     </a>
         {/* <div className="row">
           <div className="col"></div>

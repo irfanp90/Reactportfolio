@@ -9,7 +9,7 @@ function Skills() {
             <br></br>
             <br></br>
             <br></br>
-                    <h3>Skills</h3>
+                    <h3 style={{ fontFamily:"Anton, sans-serif"}}>SKILLS</h3>
                     <hr></hr>
                     <br></br>
 

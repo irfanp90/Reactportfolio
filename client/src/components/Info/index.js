@@ -13,12 +13,14 @@ const headerStyle = {
 
   function Jumbo(){
     return (
+      <div className="background">
       <div className="container">
       <div className="jumbotron text-center" style={headerStyle}>
         
         <h3>Phone: (773)426-1285</h3>
         <h3>Email: Irfanp90@gmail.com</h3>
       </div>
+       </div>
        </div>
     );
   }

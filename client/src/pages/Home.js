@@ -51,7 +51,7 @@ function Home(props) {
           
           /> */}
          
-         <div className=""> 
+         <div className="background"> 
           
           <Jumbotron />
           <Skills />
