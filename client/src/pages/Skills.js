@@ -9,28 +9,28 @@ function Skills() {
             <br></br>
             <br></br>
             <br></br>
-                    <h3 style={{ fontFamily:"Anton, sans-serif",color:"#6497b1",textAlign:"center"}}>SKILLS</h3>
+                    <h3 style={{ fontFamily:"Anton, sans-serif",backgroundColor:"#6497b1",color:"black",textAlign:"center"}}>SKILLS</h3>
                     <hr></hr>
                     <br></br>
 
                 <div className="row">
                     <div className="col">
                      <Card>
-                         <p style={{ fontFamily: "Ranga, cursive",color:"#6497b1", fontSize:"20px"}}>Browser Based Technologies </p>
-                     <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-HTML/CSS</ul>
-                     <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-JavaScript</ul>
-                     <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-jQuery</ul>
-                     <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-Bootstrap</ul>
-                     <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-React.js</ul>
+                         <p style={{ fontFamily: "Roboto sans-serif",backgroundColor:"#6497b1",color:"black",textAlign:"center", fontSize:"25px"}}>Browser Based Technologies </p>
+                     <ul style={{ fontFamily: "Roboto sans-seri",color:"#6497b1",fontSize:"20px"}}>-HTML/CSS</ul>
+                     <ul style={{ fontFamily: "Roboto sans-seri",color:"#6497b1",fontSize:"20px"}}>-JavaScript</ul>
+                     <ul style={{ fontFamily: "Roboto sans-seri",color:"#6497b1",fontSize:"20px"}}>-jQuery</ul>
+                     <ul style={{ fontFamily: "Roboto sans-seri",color:"#6497b1",fontSize:"20px"}}>-Bootstrap</ul>
+                     <ul style={{ fontFamily: "Roboto sans-seri",color:"#6497b1",fontSize:"20px"}}>-React.js</ul>
                     </Card>
                 </div> 
                 
                  <div class="col">
             <Card>
-                <p style={{ fontFamily: "Ranga, cursive",color:"#6497b1", fontSize:"20px"}}>Deployment </p>
-                <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-Heroku</ul>
-                <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-Git</ul>
-                <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-Github Page</ul>
+                <p style={{ fontFamily: "Roboto sans-seri",backgroundColor:"#6497b1",color:"black",textAlign:"center", fontSize:"25px"}}>Deployment </p>
+                <ul style={{ fontFamily: "Roboto sans-seri",color:"#6497b1",fontSize:"20px"}}>-Heroku</ul>
+                <ul style={{ fontFamily: "Roboto sans-seri",color:"#6497b1",fontSize:"20px"}}>-Git</ul>
+                <ul style={{ fontFamily: "Roboto sans-seri",color:"#6497b1",fontSize:"20px"}}>-Github Page</ul>
             </Card>
         </div>
        </div>
@@ -43,19 +43,19 @@ function Skills() {
                     <div className="col">
                
                      <Card>
-                         <p style={{ fontFamily: "Ranga, cursive",color:"#6497b1", fontSize:"20px"}}>Databases </p>
-                     <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}> -MySQL</ul>
-                     <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-MongoDB</ul>
-                     <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-Firebase</ul>
+                         <p style={{ fontFamily: "Roboto sans-seri",backgroundColor:"#6497b1",color:"black",textAlign:"center",color:"black", fontSize:"25px"}}>Databases </p>
+                     <ul style={{ fontFamily: "Roboto sans-seri",color:"#6497b1",fontSize:"20px"}}> -MySQL</ul>
+                     <ul style={{ fontFamily: "Roboto sans-seri",color:"#6497b1",fontSize:"20px"}}>-MongoDB</ul>
+                     <ul style={{ fontFamily: "Roboto sans-seri",color:"#6497b1",fontSize:"20px"}}>-Firebase</ul>
                      
                     </Card>
                 </div> 
             
                  <div class="col">
             <Card>
-                <p style={{ fontFamily: "Ranga, cursive",color:"#6497b1", fontSize:"20px"}}>Node.js (Server Side Development) </p>
-                <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-Express</ul>
-                <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-MERN  Stack (MongoDB, Express.js, React.js, Node.js)</ul>
+                <p style={{ fontFamily: "Roboto sans-seri",backgroundColor:"#6497b1",color:"black",textAlign:"center", fontSize:"25px"}}>Node.js (Server Side Development) </p>
+                <ul style={{ fontFamily: "Roboto sans-seri",color:"#6497b1",fontSize:"20px"}}>-Express</ul>
+                <ul style={{ fontFamily: "Roboto sans-seri",color:"#6497b1",fontSize:"20px"}}>-MERN  Stack (MongoDB, Express.js, React.js, Node.js)</ul>
             </Card>
         </div>
        </div>

@@ -6,8 +6,9 @@ const headerStyle = {
     color: "white",
     fontWeight:"bold",
     backgroundColor:"black",
-    boxShadow: "4px 4px 15px 3px  #6497b1"
-   
+    boxShadow: "4px 4px 15px 3px  #6497b1",
+    fontFamily: "Anton sans-serif",
+    color:"#6497b1"
     // textShadow: "1px 1px 2px white, 0 0 1em darkblue, 0 0 0.2em white"
   }
 
@@ -17,8 +18,8 @@ const headerStyle = {
       {/* <div className="container"> */}
       <div className="jumbotron text-center" style={headerStyle}>
         
-        <h3 style={{color:"#6497b1"}}>Phone: (773)426-1285</h3>
-        <h3 style={{color:"#6497b1"}}>Email: Irfanp90@gmail.com</h3>
+        <p style={{fontSize:"40px"}}>Phone-(773) 426-1285</p>
+        <p style={{fontSize:"40px"}}>Email-Irfanp90@gmail.com</p>
       </div>
        </div>
        //  </div>

@@ -12,7 +12,9 @@ function Home(props) {
     
     return(
         <div> 
+          
         <Jumbotron />
+       
          <Particles
             className="particles"
             params={{

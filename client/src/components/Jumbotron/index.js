@@ -1,5 +1,5 @@
 import React from "react";
-import brick from "../../images/2.jpg"
+import brick from "../../images/desk.jpg"
 const headerStyle = {
     
   backgroundImage: `url(${brick})`,
@@ -8,8 +8,10 @@ const headerStyle = {
     backgroundSize:"cover",
     textAlign:"center",
     opacity: "0.8",
-    fontFamily: "Bilbo Swash Caps, cursive",
-    
+    fontFamily: "Anton sans-serif",
+    marginBottom:"0px",
+    color:"black",
+    textShadow: " 0 0 0.2em  #6497b1"
     
   }
 
@@ -20,8 +22,9 @@ const headerStyle = {
         <br></br>
         <br></br>
         <br></br>
-       <p style={{  fontSize: "75px",color: "#6497b1"}}>IRFAN PATEL</p>
-        <p style={{  fontSize: "40px",color: "#6497b1"}}>FULL STACK  DEVELOPER</p>
+        <br></br>
+       <p style={{  fontSize: "75px"}}>IRFAN PATEL</p>
+        <p style={{  fontSize: "40px"}}>FULL STACK  DEVELOPER</p>
        
       </div>
      </div>
