@@ -26,7 +26,7 @@ function Portfolio() {
 <div className="row">
 <div className="col">
 <a href="https://github.com/irfanp90/Googlebooks" target="_blank">
-<i class="fab fa-github-square" style={{fontSize:"30px", color:"#6497b1", hover:{color:"yellow"}
+<i class="fab fa-github-square" style={{fontSize:"30px", color:"#6497b1"
 }}></i>
 </a>
 </div>
