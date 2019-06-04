@@ -1,76 +1,71 @@
 import React from "react";
 import Jumbotron from "../components/Jumbotron";
-import Particles from "react-particles-js";
 import { Container, Row, Col } from "reactstrap";
-// import "./Home.css";
+import "./Home.css";
 import API from "../utils/API";
 import Portfolio from "../pages/Portfolio";
 import Skills from "../pages/Skills";
-import Contact from "../pages/Contact"
-import Jumbo from "../components/Info"
+import Contact from "../pages/Contact";
+import Jumbo from "../components/Info";
+import Particles from "react-particles-js";
 function Home(props) {
-      
-      return(
-       <div>
-        {/* <Particles
+    
+    return(
+        <div> 
+        <Jumbotron />
+         <Particles
             className="particles"
             params={{
-              particles: {
-                  number: {
-                      value: 160,
-                      density: {
-                          enable: false
+                particles: {
+                    number: {
+                        value: 460,
+                        density: {
+                            enable: false
                       }
-                  },
-                  size: {
-                      value: 10,
-                      random: true
-                  },
-                  move: {
+                    },
+                    size: {
+                        value: 10,
+                        random: true
+                    },
+                    move: {
                       direction: "bottom",
                       out_mode: "out"
-                  },
+                    },
                   line_linked: {
                       enable: false
-                  }
+                    }
               },
               interactivity: {
                   events: {
                       onclick: {
-                        enable: true,
-                          mode: "remove"
+                          enable: true,
+                          mode: "repulse"
                       }
-                  },
-                  modes: {
-                      remove: {
-                          particles_nb: 10
+                    },
+                    modes: {
+                        remove: {
+                            particles_nb: 40
                       }
-                  }
-              }
+                    }
+                  
+                    
+                }
             }}
-          
-          /> */}
+           /> 
          
-         <div className="background"> 
-          
-          <Jumbotron />
-          <Skills />
-          <Portfolio />
-          <Jumbo />
-        {/* <Contact /> */}
-{/*           
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br> */}
-
+         
+            
+         <div className="background">       
+          <div className="container">
+                           <Skills />
+                           <br></br>
+                           <Portfolio />
+                           <br></br>
+                           <Jumbo />
+                         {/* <Contact /> */}
+                         </div>               
 </div>
-</div> 
+</div>
      
   );
   

@@ -3,7 +3,7 @@ const footerStyle = {
   position: "fixed",
   textAlign: "center",
   backgroundColor: "gainsboro",
-  borderTop: "3px solid darkslategray",
+  borderTop: "3px solid #6497b1",
   textAlign: "center",
   padding: "10px",
   left: "0",

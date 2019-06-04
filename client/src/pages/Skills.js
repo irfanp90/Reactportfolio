@@ -9,28 +9,28 @@ function Skills() {
             <br></br>
             <br></br>
             <br></br>
-                    <h3 style={{ fontFamily:"Anton, sans-serif"}}>SKILLS</h3>
+                    <h3 style={{ fontFamily:"Anton, sans-serif",color:"#6497b1",textAlign:"center"}}>SKILLS</h3>
                     <hr></hr>
                     <br></br>
 
                 <div className="row">
                     <div className="col">
                      <Card>
-                         <p>Browser Based Technologies </p>
-                     <ul>-HTML/CSS</ul>
-                     <ul>-JavaScript</ul>
-                     <ul>-jQuery</ul>
-                     <ul>-Bootstrap</ul>
-                     <ul>-React.js</ul>
+                         <p style={{ fontFamily: "Ranga, cursive",color:"#6497b1", fontSize:"20px"}}>Browser Based Technologies </p>
+                     <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-HTML/CSS</ul>
+                     <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-JavaScript</ul>
+                     <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-jQuery</ul>
+                     <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-Bootstrap</ul>
+                     <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-React.js</ul>
                     </Card>
                 </div> 
                 
                  <div class="col">
             <Card>
-                <p>Deployment </p>
-                <ul>-Heroku</ul>
-                <ul>-Git</ul>
-                <ul>-Github Page</ul>
+                <p style={{ fontFamily: "Ranga, cursive",color:"#6497b1", fontSize:"20px"}}>Deployment </p>
+                <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-Heroku</ul>
+                <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-Git</ul>
+                <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-Github Page</ul>
             </Card>
         </div>
        </div>
@@ -43,19 +43,19 @@ function Skills() {
                     <div className="col">
                
                      <Card>
-                         <p>Databases </p>
-                     <ul> -MySQL</ul>
-                     <ul>-MongoDB</ul>
-                     <ul>-Firebase</ul>
+                         <p style={{ fontFamily: "Ranga, cursive",color:"#6497b1", fontSize:"20px"}}>Databases </p>
+                     <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}> -MySQL</ul>
+                     <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-MongoDB</ul>
+                     <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-Firebase</ul>
                      
                     </Card>
                 </div> 
             
                  <div class="col">
             <Card>
-                <p>Node.js (Server Side Development) </p>
-                <ul>-Express</ul>
-                <ul>-MERN  Stack (MongoDB, Express.js, React.js, Node.js)</ul>
+                <p style={{ fontFamily: "Ranga, cursive",color:"#6497b1", fontSize:"20px"}}>Node.js (Server Side Development) </p>
+                <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-Express</ul>
+                <ul style={{ fontFamily: "Ranga, cursive",color:"#6497b1"}}>-MERN  Stack (MongoDB, Express.js, React.js, Node.js)</ul>
             </Card>
         </div>
        </div>

@@ -5,8 +5,8 @@ const headerStyle = {
  
     color: "white",
     fontWeight:"bold",
-    backgroundColor:"darkslategray",
-    boxShadow: "4px 4px 15px 3px   rgb(32, 18, 9)"
+    backgroundColor:"black",
+    boxShadow: "4px 4px 15px 3px  #6497b1"
    
     // textShadow: "1px 1px 2px white, 0 0 1em darkblue, 0 0 0.2em white"
   }
@@ -14,14 +14,14 @@ const headerStyle = {
   function Jumbo(){
     return (
       <div className="background">
-      <div className="container">
+      {/* <div className="container"> */}
       <div className="jumbotron text-center" style={headerStyle}>
         
-        <h3>Phone: (773)426-1285</h3>
-        <h3>Email: Irfanp90@gmail.com</h3>
+        <h3 style={{color:"#6497b1"}}>Phone: (773)426-1285</h3>
+        <h3 style={{color:"#6497b1"}}>Email: Irfanp90@gmail.com</h3>
       </div>
        </div>
-       </div>
+       //  </div>
     );
   }
 
