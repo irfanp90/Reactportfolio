@@ -10,10 +10,10 @@ const headerStyle = {
     opacity: "0.8",
     fontFamily: "Anton sans-serif",
     marginBottom:"0px",
-    color:"black",
+    color:"#black",
     maxWidth:"100%",
     height:"auto",
-    textShadow: " 0 0 3px #6497b1"
+    textShadow: "black 1px 0 10px"
 
   }
 
