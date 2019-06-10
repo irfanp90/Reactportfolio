@@ -5,30 +5,30 @@ function Navbar() {
 
   
     <nav className="navbar navbar-expand-md navbar navbar-light" style={{
-      backgroundColor:"black", boxShadow: "4px 4px 15px 3px #6497b1"
+      backgroundColor:"black", boxShadow: "4px 4px 15px 3px #6497b1", paddingBottom:"25px",
     }}>
      <div className="collapse navbar-collapse" id="navbarText">
       <ul className="navbar-nav mr-auto">
         
         <li className="navbar">
-          <a className="nav-link" href="/"style={{
+          {/* <a className="nav-link" href="/"style={{
             color: "black"
-          }}>Home</a>
+          }}>Home</a> */}
         </li>
         <li className="navbar">
-          <a className="nav-link" href="/Portfolio" style={{
+          {/* <a className="nav-link" href="/Portfolio" style={{
             color: "black"
-          }}>Portfolio</a>
+          }}>Portfolio</a> */}
         </li>
         <li className="navbar">
-          <a className="nav-link" href="/Skills" style={{
+          {/* <a className="nav-link" href="/Skills" style={{
             color: "black"
-          }}>Skills</a>
+          }}>Skills</a> */}
         </li>
         <li className="navbar">
-          <a className="nav-link" href="/Contact" style={{
+          {/* <a className="nav-link" href="/Contact" style={{
             color: "black"
-          }}>Contact</a>
+          }}>Contact</a> */}
         </li>
       </ul>
     

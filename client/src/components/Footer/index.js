@@ -16,11 +16,9 @@ function Footer() {
 
     <footer className="card" style={footerStyle} >
     <div className="row">
+    <div className="col"></div>
     <div className="col">
-    
-    </div>
-    <div className="col">
-   <a href="https://github.com/irfanp90" target="_blank">
+   <a className="hvr-grow" href="https://github.com/irfanp90" target="_blank" title="GitHub">
         <i
           className="fab fa-github"
           style={{
@@ -29,15 +27,9 @@ function Footer() {
             textAlign: "center"
           }}
         />
-      <span style={{color: "gainsboro"}}>-----</span>
     </a>
-        {/* <div className="row">
-          <div className="col"></div>
-          <div className="col"></div>
-          <div className="col"></div>
-        </div> */}
-      
-    <a href="https://www.linkedin.com/in/irfan-patel-b097a287/" target="_blank">
+      <span> | </span>  
+    <a className="hvr-grow" href="https://www.linkedin.com/in/irfan-patel-b097a287/" target="_blank" title="LinkedIn">
         <i
           className="fab fa-linkedin"
           style={{
@@ -47,11 +39,8 @@ function Footer() {
           }}
           />  
       </a>
-
     </div>
-    <div className="col" >
-    
-    </div>
+    <div className="col" ></div>
   </div>
           </footer>
 

@@ -241,21 +241,21 @@ function Portfolio() {
  <a className="hvr-grow" href="https://neagtivefriction.github.io/Group-Project-1/" target="_blank" title="MoviesGalore! Live Link">
 <img src={movie} class="rounded" alt="Movie Galore" style={{width:"200px", height:"200px",boxShadow: "4px 4px 15px 3px  #6497b1"}}/>
  </a>  
- <br></br>>
+ <br></br>
 <br></br>
-<div className="row">
-<div className="col">
+ <div className="row">
+ <div className="col">
 <a className="hvr-pulse-grow" href="https://github.com/irfanp90/Group-Project-1" target="_blank" title="MoviesGalore! Repo Link">
 <i class="fab fa-github-square" style={{fontSize:"30px", color:"#6497b1"}}></i>
 </a>
 </div>
 <div className="col">
-</div>
 <a className="hvr-pulse-grow" href="https://neagtivefriction.github.io/Group-Project-1/" target="_blank" title="MoviesGalore! Live Link">
 <i class="fas fa-paperclip" style={{fontSize:"30px", color:"#6497b1"}}></i> 
 </a>  
-<div className="col">
-</div>
+</div> 
+  <div className="col"> 
+ </div> 
 </div>
 <br></br>
 <div className="card"style={{width:"200px", height:"460px",backgroundColor:"black", color:"#6497b1", boxShadow: "4px 4px 15px 3px  #6497b1"}}>
@@ -279,17 +279,17 @@ function Portfolio() {
  <br></br>
 <br></br>
 <div className="row">
-<div className="col-6">
+<div className="col">
 <a className="hvr-pulse-grow" href="https://github.com/chrislewisjones/Project2" target="_blank" title="Barks&Brews Repo Link">
 <i class="fab fa-github-square" style={{fontSize:"30px", color:"#6497b1"}}></i>
 </a>
 </div>
 <div className="col">
-</div>
 <a className="hvr-pulse-grow" href="https://barksandbrews.herokuapp.com/" target="_blank" title="Barks&Brews Live Link">
 <i class="fas fa-paperclip" style={{fontSize:"30px", color:"#6497b1"}}></i> 
 </a>  
-<div className="col">
+</div>
+ <div className="col">
 </div>
 </div>
 <br></br>
@@ -305,9 +305,9 @@ function Portfolio() {
 </div>
 </Image>
 </div>
-<div className="col">
+{/* <div className="col">
 
-</div>
+</div>  */}
  </div>
  
 </div>
