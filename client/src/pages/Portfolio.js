@@ -163,20 +163,20 @@ function Portfolio() {
 <div className="col">
 <Image>
  <h4  style={{ fontFamily:"Anton, sans-serif",color:"#6497b1"}}>Crystal Collector</h4>    
-<a className="hvr-grow" href ="https://irfanp90.github.io/unit-4-game/" target="_blank" title="CrystalCollector Live Link">
+<a className="hvr-grow" href ="https://irfanp90.github.io/CrystalCollector/" target="_blank" title="CrystalCollector Live Link">
 <img src={crystal} class="rounded" alt="Crystal Collector" style={{width:"200px", height:"200px",boxShadow: "4px 4px 15px 3px  #6497b1"}}/>
 </a>
 <br></br>
 <br></br>
 <div className="row">
 <div className="col">
-<a  className="hvr-pulse-grow" href="https://github.com/irfanp90/unit-4-game" target="_blank" title="CrystalCollector Repo Link">
+<a  className="hvr-pulse-grow" href="https://github.com/irfanp90/CrystalCollector" target="_blank" title="CrystalCollector Repo Link">
 <i class="fab fa-github-square" style={{fontSize:"30px", color:"#6497b1"}}></i>
 </a>
 </div>
 <div className="col">
 </div>
-<a  className="hvr-pulse-grow" href="https://irfanp90.github.io/unit-4-game/" target="_blank" title="CrystalCollector Live Link">
+<a  className="hvr-pulse-grow" href="https://irfanp90.github.io/CrystalCollector/" target="_blank" title="CrystalCollector Live Link">
 <i class="fas fa-paperclip" style={{fontSize:"30px", color:"#6497b1"}}></i> 
 </a>  
 <div className="col">
