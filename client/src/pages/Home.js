@@ -20,13 +20,13 @@ function Home(props) {
             params={{
                 particles: {
                     number: {
-                        value: 460,
+                        value: 560,
                         density: {
                             enable: false
                       }
                     },
                     size: {
-                        value: 10,
+                        value: 15,
                         random: true
                     },
                     move: {
@@ -60,6 +60,7 @@ function Home(props) {
          <div className="background">       
           <div className="container">
                            <Skills />
+                           <br></br>
                            <br></br>
                            <Portfolio />
                            <br></br>
