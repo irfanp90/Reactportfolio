@@ -1,11 +1,9 @@
 import React from "react";
 import Jumbotron from "../components/Jumbotron";
-import { Container, Row, Col } from "reactstrap";
 import "./Home.css";
-import API from "../utils/API";
 import Portfolio from "../pages/Portfolio";
 import Skills from "../pages/Skills";
-import Contact from "../pages/Contact";
+import About from "../components/About";
 import Jumbo from "../components/Info";
 import Particles from "react-particles-js";
 function Home(props) {
@@ -59,13 +57,13 @@ function Home(props) {
             
          <div className="background">       
           <div className="container">
+                          <About/>
                            <Skills />
                            <br></br>
                            <br></br>
                            <Portfolio />
                            <br></br>
                            <Jumbo />
-                         {/* <Contact /> */}
                          </div>               
 </div>
 </div>
