@@ -245,7 +245,7 @@ function Portfolio() {
 <br></br>
  <div className="row">
  <div className="col">
-<a className="hvr-pulse-grow" href="https://github.com/irfanp90/Group-Project-1" target="_blank" title="MoviesGalore! Repo Link">
+<a className="hvr-pulse-grow" href="https://github.com/irfanp90/MoviesGalore" target="_blank" title="MoviesGalore! Repo Link">
 <i class="fab fa-github-square" style={{fontSize:"30px", color:"#6497b1"}}></i>
 </a>
 </div>
@@ -280,7 +280,7 @@ function Portfolio() {
 <br></br>
 <div className="row">
 <div className="col">
-<a className="hvr-pulse-grow" href="https://github.com/chrislewisjones/Project2" target="_blank" title="Barks&Brews Repo Link">
+<a className="hvr-pulse-grow" href="https://github.com/irfanp90/Barks-brews" target="_blank" title="Barks&Brews Repo Link">
 <i class="fab fa-github-square" style={{fontSize:"30px", color:"#6497b1"}}></i>
 </a>
 </div>
