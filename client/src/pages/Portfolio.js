@@ -19,7 +19,7 @@ function Portfolio() {
 <div className="col">
 <Image>
  <h4 style={{ fontFamily:"Anton, sans-serif",color:"#6497b1"}}>(React) Google Books</h4>   
-<a className="hvr-grow"  href ="https://protected-savannah-43957.herokuapp.com/" target="_blank" title="GoogleBooks Live Link">
+<a className="hvr-grow"  href ="https://protected-savannah-43957.herokuapp.com/" target="_blank" title="GoogleBooks Deploy Link">
 <img src={book} class="rounded" alt="(React) Google Books" style={{width:"200px", height:"200px",boxShadow: "4px 4px 15px 3px  #6497b1"}}/>
 </a>
 <br></br>
@@ -32,7 +32,7 @@ function Portfolio() {
 </div>
 <div className="col">
 </div>
-<a className="hvr-pulse-grow" href="https://protected-savannah-43957.herokuapp.com/" target="_blank" title="GoogleBooks Live Link">
+<a className="hvr-pulse-grow" href="https://protected-savannah-43957.herokuapp.com/" target="_blank" title="GoogleBooks Deploy Link">
 <i class="fas fa-paperclip" style={{fontSize:"30px", color:"#6497b1"}}></i> 
 </a>  
 <div className="col">
@@ -55,7 +55,7 @@ function Portfolio() {
 <div className="col">
 <Image>
  <h4 style={{fontFamily:"Anton, sans-serif",color:"#6497b1"}}>Trivia Game</h4>    
-<a className="hvr-grow" href ="https://irfanp90.github.io/TriviaGame/" target="_blank" title="TriviaGame Live Link">
+<a className="hvr-grow" href ="https://irfanp90.github.io/TriviaGame/" target="_blank" title="TriviaGame Deploy Link">
 <img src={game} class="rounded" alt="Trivia Game" style={{width:"200px", height:"200px",boxShadow: "4px 4px 15px 3px  #6497b1"}}/>
 </a>
 <br></br>
@@ -68,7 +68,7 @@ function Portfolio() {
 </div>
 <div className="col">
 </div>
-<a className="hvr-pulse-grow"href="https://irfanp90.github.io/TriviaGame/" target="_blank" title="TriviaGame Live Link">
+<a className="hvr-pulse-grow"href="https://irfanp90.github.io/TriviaGame/" target="_blank" title="TriviaGame Deploy Link">
 <i class="fas fa-paperclip" style={{fontSize:"30px", color:"#6497b1"}}></i> 
 </a>  
 <div className="col">
@@ -90,7 +90,7 @@ function Portfolio() {
 <div className="col">
 <Image>
  <h4 style={{ fontFamily:"Anton, sans-serif",color:"#6497b1"}}>Train Schedule</h4>    
-<a  className="hvr-grow" href ="https://irfanp90.github.io/TrainSchedule/" target="_blank" title="TrainSchedule Live Link">
+<a  className="hvr-grow" href ="https://irfanp90.github.io/TrainSchedule/" target="_blank" title="TrainSchedule Deploy Link">
 <img src={train} class="rounded" alt="Train Schedule" style={{width:"200px", height:"200px",boxShadow: "4px 4px 15px 3px  #6497b1"}}/>
 </a>
 <br></br>
@@ -103,7 +103,7 @@ function Portfolio() {
 </div>
 <div className="col">
 </div>
-<a className="hvr-pulse-grow" href="https://irfanp90.github.io/TrainSchedule/" target="_blank" title="TrainSchedule Live Link">
+<a className="hvr-pulse-grow" href="https://irfanp90.github.io/TrainSchedule/" target="_blank" title="TrainSchedule Deploy Link">
 <i class="fas fa-paperclip" style={{fontSize:"30px", color:"#6497b1"}}></i> 
 </a>  
 <div className="col">
@@ -128,7 +128,7 @@ function Portfolio() {
 <div className="col">
 <Image>
  <h4  style={{ fontFamily:"Anton, sans-serif",color:"#6497b1"}}>Psychic Game</h4>    
-<a className="hvr-grow" href ="https://irfanp90.github.io/Psychic-Game/" target="_blank" title="PsychicGame Live Link">
+<a className="hvr-grow" href ="https://irfanp90.github.io/Psychic-Game/" target="_blank" title="PsychicGame Deploy Link">
 <img src={psychic} class="rounded" alt="Psychic Game" style={{width:"200px", height:"200px",boxShadow: "4px 4px 15px 3px  #6497b1"}}/>
 </a>
 <br></br>
@@ -141,7 +141,7 @@ function Portfolio() {
 </div>
 <div className="col">
 </div>
-<a className="hvr-pulse-grow" href="https://irfanp90.github.io/Psychic-Game/" target="_blank" title="PsychicGame Live Link">
+<a className="hvr-pulse-grow" href="https://irfanp90.github.io/Psychic-Game/" target="_blank" title="PsychicGame Deploy Link">
 <i class="fas fa-paperclip" style={{fontSize:"30px", color:"#6497b1"}}></i> 
 </a>  
 <div className="col">
@@ -163,7 +163,7 @@ function Portfolio() {
 <div className="col">
 <Image>
  <h4  style={{ fontFamily:"Anton, sans-serif",color:"#6497b1"}}>Crystal Collector</h4>    
-<a className="hvr-grow" href ="https://irfanp90.github.io/CrystalCollector/" target="_blank" title="CrystalCollector Live Link">
+<a className="hvr-grow" href ="https://irfanp90.github.io/CrystalCollector/" target="_blank" title="CrystalCollector Deploy Link">
 <img src={crystal} class="rounded" alt="Crystal Collector" style={{width:"200px", height:"200px",boxShadow: "4px 4px 15px 3px  #6497b1"}}/>
 </a>
 <br></br>
@@ -176,7 +176,7 @@ function Portfolio() {
 </div>
 <div className="col">
 </div>
-<a  className="hvr-pulse-grow" href="https://irfanp90.github.io/CrystalCollector/" target="_blank" title="CrystalCollector Live Link">
+<a  className="hvr-pulse-grow" href="https://irfanp90.github.io/CrystalCollector/" target="_blank" title="CrystalCollector Deploy Link">
 <i class="fas fa-paperclip" style={{fontSize:"30px", color:"#6497b1"}}></i> 
 </a>  
 <div className="col">
@@ -198,7 +198,7 @@ function Portfolio() {
 <div className="col">
 <Image>
  <h4  style={{ fontFamily:"Anton, sans-serif",color:"#6497b1", fontWeight:"bold"}}>Giphy</h4>    
-<a className="hvr-grow" href ="https://irfanp90.github.io/GIPHY-API/" target="_blank" title="Giphy Live Link">
+<a className="hvr-grow" href ="https://irfanp90.github.io/GIPHY-API/" target="_blank" title="Giphy Deploy Link">
 <img src={giphy}class="rounded" alt="Giphy" style={{width:"200px", height:"200px",boxShadow: "4px 4px 15px 3px  #6497b1"}}/>
 </a>
 <br></br>
@@ -211,7 +211,7 @@ function Portfolio() {
 </div>
 <div className="col">
 </div>
-<a className="hvr-pulse-grow" href="https://irfanp90.github.io/GIPHY-API/" target="_blank" title="Giphy Live Link">
+<a className="hvr-pulse-grow" href="https://irfanp90.github.io/GIPHY-API/" target="_blank" title="Giphy Deploy Link">
 <i class="fas fa-paperclip" style={{fontSize:"30px", color:"#6497b1"}}></i> 
 </a>  
 <div className="col">
@@ -238,7 +238,7 @@ function Portfolio() {
 <div className="col">
 <Image>
  <h4  style={{fontFamily:"Anton, sans-serif",color:"#6497b1"}}>Movies Galore!</h4>  
- <a className="hvr-grow" href="https://neagtivefriction.github.io/Group-Project-1/" target="_blank" title="MoviesGalore! Live Link">
+ <a className="hvr-grow" href="https://irfanp90.github.io/MoviesGalore/" target="_blank" title="MoviesGalore! Deploy Link">
 <img src={movie} class="rounded" alt="Movie Galore" style={{width:"200px", height:"200px",boxShadow: "4px 4px 15px 3px  #6497b1"}}/>
  </a>  
  <br></br>
@@ -250,7 +250,7 @@ function Portfolio() {
 </a>
 </div>
 <div className="col">
-<a className="hvr-pulse-grow" href="https://neagtivefriction.github.io/Group-Project-1/" target="_blank" title="MoviesGalore! Live Link">
+<a className="hvr-pulse-grow" href="https://irfanp90.github.io/MoviesGalore/" target="_blank" title="MoviesGalore! Deploy Link">
 <i class="fas fa-paperclip" style={{fontSize:"30px", color:"#6497b1"}}></i> 
 </a>  
 </div> 
@@ -273,7 +273,7 @@ function Portfolio() {
 <div className="col">
 <Image>
 <h4  style={{ fontFamily:"Anton, sans-serif", color:"#6497b1"}}>Barks & Brews</h4> 
-<a className="hvr-grow" href ="https://barksandbrews.herokuapp.com/" target="_blank" title="Barks&Brews Live Link">
+<a className="hvr-grow" href ="https://barksandbrews.herokuapp.com/" target="_blank" title="Barks&Brews Deploy Link">
 <img src={barks} class="rounded" alt="Barks & Brews" style={{width:"200px", height:"200px",boxShadow: "4px 4px 15px 3px  #6497b1"}}/>
  </a>
  <br></br>
@@ -285,7 +285,7 @@ function Portfolio() {
 </a>
 </div>
 <div className="col">
-<a className="hvr-pulse-grow" href="https://barksandbrews.herokuapp.com/" target="_blank" title="Barks&Brews Live Link">
+<a className="hvr-pulse-grow" href="https://barksandbrews.herokuapp.com/" target="_blank" title="Barks&Brews Deploy Link">
 <i class="fas fa-paperclip" style={{fontSize:"30px", color:"#6497b1"}}></i> 
 </a>  
 </div>
