@@ -30,7 +30,7 @@
     "express": "^4.16.4",
     "hover.css": "^2.3.2",
     "if-env": "^1.0.4",
-    "mongoose": "^5.5.8",
+    "mongoose": "^5.7.5",
     "react-particles-js": "^2.6.0",
     "react-router-dom": "^5.0.0",
     "reactstrap": "^8.0.0"
